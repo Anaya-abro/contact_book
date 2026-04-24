@@ -1,20 +1,40 @@
-📒 Contact Manager (Python)
+# 📒 Contact Book (Python CLI)
 
-This is a basic command-line contact manager built using Python. It allows you to store and manage contacts easily.
+## 📌 Overview
+This is a command-line Contact Book application built using Python.  
+It allows users to store and manage contacts with names and phone numbers.
 
-Features
-Add new contacts (name and phone number)
-View all saved contacts
-Search for a contact by name
-Delete a contact
-How to Run
-Make sure Python is installed
-Run the file:
-python filename.py
-How It Works
-Contacts are stored in a list during runtime
-The program shows a menu with options
-User selects an option to perform actions
-Limitations
-Data is not saved permanently
-Search is case-sensitive
+The program uses functions and lists of dictionaries to organize data efficiently.
+
+---
+
+## ✨ Features
+- ✅ Add new contacts
+- ✅ View all saved contacts
+- ✅ Search for a contact by name
+- ✅ Delete a contact
+- ✅ Simple and interactive menu system
+
+---
+
+## 🛠️ Tech Stack
+- Python (no external libraries required)
+
+---
+
+## ⚙️ How It Works
+The program runs in a loop and provides the following options:
+1. Add contacts  
+2. View contacts  
+3. Search contacts  
+4. Delete contacts  
+
+Users can perform multiple actions until they choose to exit.
+
+---
+
+## ▶️ Usage
+
+1. Run the program:
+```bash
+python your_file_name.py
